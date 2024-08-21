@@ -1,0 +1,63 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #222;
+}
+.container{
+    background-color: #444 border 1px solid #FFF;
+    padding:20px;
+    border-radius:5px;
+    box-shadow:0 2px 4px rgba(0, 0, 0, 1);
+    text-align:center;
+    max-width:400px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    position:relative;
+}
+h1{
+    color: #FFF;
+}
+form{
+    display: block;
+    margin-top: 0em;
+    unicode-bidi: isolate;
+}
+.form-group{
+    margin: 10px 0;
+    width: 100%;
+}
+.form-group label {
+    color: #FFF;
+}
+form input[type="text"], form input[type="file"], form select {
+    width: calc(100%);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+#result {
+    white-space: pre-wrap;
+    color: #FFF;
+}
+button{
+    background-color: #007BFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #FFF;
+}
+.container .bottom-link {
+    position: relative;
+    top: 10px;
+}
+a {
+    color: #6495ED;
+}
